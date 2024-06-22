@@ -1,0 +1,14 @@
+[package]
+name = "aptos-offchain-data-verifier"
+upgrade_policy = "compatible"
+version = "1.0.0"
+authors = []
+
+[addresses]
+deployer="_"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+# local="../../aptos-core/aptos-move/framework/aptos-framework"
